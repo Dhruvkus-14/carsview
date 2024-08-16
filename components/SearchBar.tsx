@@ -6,7 +6,7 @@ import { use, useState } from "react"
 
 const SearchBar = () => {
 
-    const[manufacturer,setmanufacturer]=useState('';)
+    const[manufacturer,setmanufacturer]=useState('');
     const handleSearch=()=>{}
 
   return (
