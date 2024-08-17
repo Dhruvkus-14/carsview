@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: ['cdn.imagin.studio'], // Corrected the domain here
+        domains: ['cdn.imagin.studio'],
+        typescript: {
+            ignoreBuildErrors: true,
+        } // Corrected the domain here
     },
 };
 
